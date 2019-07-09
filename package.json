@@ -1,6 +1,6 @@
 {
   "name": "@team-decorate/image-list-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/image-list-view.common.js",
   "unpkg": "dist/image-list-view.umd.js",
