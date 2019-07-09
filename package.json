@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decorate/vue-searchable.git"
+    "url": "git+https://github.com/decorate/image-list-view.git"
   },
   "keywords": [
-    "vue"
+    "vue", "list"
   ],
   "author": "",
   "license": "MIT",

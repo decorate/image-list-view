@@ -1,8 +1,8 @@
 import '@babel/polyfill'
 
-import EX from './components/Example'
+import ImageListView from './components/ImageListView'
 
 export {
-    EX,
-    EX as default
+    ImageListView,
+    ImageListView as default
 }
