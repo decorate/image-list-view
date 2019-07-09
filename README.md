@@ -1,28 +1,44 @@
 
-## npm-package-base
+## Image-list-view
 
 ### Installation
 
 With npm:
 
-    git clone git@github.com:decorate/npm-package-base.git
+    npm i @team-decorate/image-list-view
     
-### Replace
+### Command Examples
 
-package.json:
+```html
+<image-list-view
+    :images="user.images">
+</image-list-view>
+      
+      
+<script>
+    import CircleImageList from './components/CircleImageList'
+    import  {ImageUploadable} from '@team-decorate/alcjs'
 
-    name,main,unpkg,repository,author,keywords
-    peerDependencies = externalLibrary
-    
-### Usage
+    export default {
+        data() {
+            return {
+                list: [new ImageUploadable(), {path: '/image/usericon2.jpg'}],
+            }
+        },
+        components: {
+            CircleImageList
+        }
+    }
 
-    npm install
-    npm run serve
-    
-### Build
-    
-    npm run build
+</script>
 
-### Test
+``` 
 
-    npm run test
+### props
+
+|name|default|type|required|description|
+|:---|:---|:---|:---|:---|
+|images|null|Array|true||
+
+
+
