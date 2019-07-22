@@ -16,7 +16,7 @@ With npm:
       
       
 <script>
-    import CircleImageList from './components/CircleImageList'
+    import ImageListView from '@team-decorate/image-list-view'
     import  {ImageUploadable} from '@team-decorate/alcjs'
 
     export default {
@@ -26,7 +26,7 @@ With npm:
             }
         },
         components: {
-            CircleImageList
+            ImageListView
         }
     }
 
