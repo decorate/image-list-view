@@ -2,6 +2,7 @@
     <div class="image-list-view">
         <div>
             <img
+                    onerror='this.style.display = "none"'
                     :src="imagePath">
         </div>
     </div>
