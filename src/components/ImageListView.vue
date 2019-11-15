@@ -2,7 +2,7 @@
     <div class="image-list-view">
         <div>
             <img
-                    onerror='this.style.display = "none"'
+                    onerror='this.src="/images/usericon.jpg"'
                     :src="imagePath">
         </div>
     </div>
@@ -26,6 +26,10 @@
             },
             contain: {
                 type: Boolean
+            },
+            errImage: {
+                type: String,
+                default: "/images/usericon.jpg"
             }
         },
         created() {
